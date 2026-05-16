@@ -1,7 +1,9 @@
 --------------------------------------------------------------------------------------------------------------
+"
 Can you crack the password to get the flag?
 Download the password checker here and you'll need the encrypted flag and the hash in the same directory too. 
 Here's a dictionary with all possible passwords based on the password conventions we've seen so far.
+"
 --------------------------------------------------------------------------------------------------------------
 
 
@@ -41,5 +43,3 @@ python3 my_level5.py
 9581
 
 >> picoCTF{fl45h_5pr1ng1ng_cf341ff1}
-
- 

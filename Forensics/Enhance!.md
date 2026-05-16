@@ -1,6 +1,8 @@
 --------------------------------------------------------------------------------------------------------------
+"
 Download this image file and find the flag.
 Download image file
+"
 --------------------------------------------------------------------------------------------------------------
 
 
@@ -19,4 +21,3 @@ nano drawing.flag.svg
 # so you need to take the text you have and remove all the useless text to have the flag (notepad++ will help)
 
 >> picoCTF{3nh4nc3d_aab729dd}
-

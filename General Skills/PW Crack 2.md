@@ -1,6 +1,8 @@
 --------------------------------------------------------------------------------------------------------------
+"
 Can you crack the password to get the flag?
 Download the password checker here and you'll need the encrypted flag in the same directory too.
+"
 --------------------------------------------------------------------------------------------------------------
 
 
@@ -25,4 +27,3 @@ python3 level2.py
 de76
 
 >> picoCTF{tr45h_51ng1ng_489dea9a}
-
