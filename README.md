@@ -1,4 +1,4 @@
-# 🧠 PicoCTF Writeups
+# 🧠 PicoCTF Writeups 
 
 Welcome to my PicoCTF writeups repository!  
 This repo contains my personal notes, solutions, and learning journey while solving challenges from picoCTF.
