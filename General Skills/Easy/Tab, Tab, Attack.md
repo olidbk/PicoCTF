@@ -17,7 +17,7 @@ unzip Addadshashanammu.zip
 tree Addadshashanammu
 ```
 
-**you have to use tap to autocomplete for sure**
+**You have to use `tap` to autocomplete for sure.**
 
 ```shell
 cd Addadshashanammu/Almurbalarammi/Ashalmimilkala/Assurnabitashpi/Maelkashishi/Onnissiralis/Ularradallaku/

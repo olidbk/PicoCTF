@@ -4,7 +4,7 @@
 
 ## Solution
 
-**you can use cyberchef to make it easy. but you can use terminal too.**
+**You can use `CyberChef` to make it easy. But you can use terminal too.**
 
 ```shell
 echo "obase=2; 42" | bc
