@@ -17,7 +17,7 @@ cat values.txt
 cvpbPGS{arkg_gvzr_V'yy_gel_2_ebhaqf_bs_ebg13_45559noq}
 ```
 
-**after trying... it's ROT13 you can use CyberChef. or also you can use terminal to decode it**
+**After trying... It's `rot13` you can use `CyberChef`. Or also you can use terminal to decode it.**
 
 ```shell
 cat values.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'

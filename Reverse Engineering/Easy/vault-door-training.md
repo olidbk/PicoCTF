@@ -42,7 +42,7 @@ class VaultDoorTraining {
 }
 ```
 
-**it's an easy one because the flag is in clear text**
+**It's an easy one because the flag is in clear text.**
 
 ```flag
 picoCTF{w4rm1ng_Up_w1tH_jAv4_0009yrGMeEp}
