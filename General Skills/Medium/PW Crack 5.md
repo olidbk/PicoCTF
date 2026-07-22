@@ -55,9 +55,9 @@ def level_5_pw_check():
 level_5_pw_check()
 ```
 
-**Here they give you a file of passwords, so first you need to know how to loop through a file in Python and then write a code.**
+Here they give you a file of passwords, so first you need to know how to loop through a file in Python and then write a code.
 
-**So here I add new lines of code. That makes you try all the passwords in the list then print the correct password before you enter it.**
+So here I add new lines of code. That makes you try all the passwords in the list then print the correct password before you enter it.
 
 ```shell
 nano level5.py

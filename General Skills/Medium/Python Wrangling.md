@@ -11,7 +11,7 @@ wget "https://challenge-files.picoctf.net/c_wily_courier/2946b2b767f2d6792cb13dc
 wget "https://challenge-files.picoctf.net/c_wily_courier/2946b2b767f2d6792cb13dcfc9312c0fd5888dcabaf4196f2d88ae6d46f2a62c/flag.txt.en"
 ```
 
-**First to know what to do, ask for `help`.**
+First to know what to do, ask for `help`.
 
 ```shell
 python ende.py -h
@@ -23,7 +23,7 @@ Examples:
   To decrypt a file named 'pole.txt', do: '$ python ende.py -d pole.txt'
 ```
 
-**Then let's cat the `password.txt`.**
+Then let's cat the `password.txt`.
 
 ```shell
 cat password.txt
@@ -33,7 +33,7 @@ cat password.txt
 720b6ad346f84cd483c60c7464dd95d4
 ```
 
-**And now decrypt it.**
+And now decrypt it.
 
 ```shell
 python ende.py -d flag.txt.en

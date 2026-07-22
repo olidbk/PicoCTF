@@ -17,14 +17,14 @@ file cat.jpg
 cat.jpg: JPEG image data, JFIF standard 1.02, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 2560x1598, components 3
 ```
 
-**We see that it's a normal image.**
+We see that it's a normal image.
 
 ```shell
 strings cat.jpg | grep -i "pico"
 ```
 
-**And also there is nothing interesting about the data of the image.**
-**So we have to check the metadata of the image.**
+And also there is nothing interesting about the data of the image.
+So we have to check the metadata of the image.
 
 ```shell
 exiftool cat.jpg
@@ -62,9 +62,9 @@ Image Size                      : 2560x1598
 Megapixels                      : 4.1
 ```
 
-**Here we see something weird. The license field have a weird string, which looks different for a real license.**
+Here we see something weird. The license field have a weird string, which looks different for a real license.
 
-**So you can past the string easily into `CyberChef`. Or you can use the terminal instead.**
+So you can past the string easily into `CyberChef`. Or you can use the terminal instead.
 
 ```shell
 echo "cGljb0NURnt0aGVfbTN0YWRhdGFfMXNfbW9kaWZpZWR9" | base64 -d

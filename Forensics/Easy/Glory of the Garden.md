@@ -9,7 +9,7 @@
 wget "https://challenge-files.picoctf.net/c_fickle_tempest/b67cf664cdf2557bea4f1d6079bc099037bc6ea5322afbfc80c5dcf4440c5e7d/garden.jpg"
 ```
 
-**It's a normal image so let's check the data of the image.**
+It's a normal image so let's check the data of the image.
 
 ```shell
 strings garden.jpg | grep -i "pico"

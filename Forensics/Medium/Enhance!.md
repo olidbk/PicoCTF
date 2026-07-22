@@ -9,7 +9,7 @@
 wget "https://artifacts.picoctf.net/c/100/drawing.flag.svg"
 ```
 
-**Here we saw that the file is `.svg` that means it's XML-based.**
+Here we saw that the file is `.svg` that means it's XML-based.
 
 ```shell
 cat drawing.flag.svg
@@ -140,11 +140,11 @@ cat drawing.flag.svg
 </svg>
 ```
 
-**Here we see a lot of `XML` and the flag is not visible. But if you read carefully you will see a weird text and characters like `{`.**
+Here we see a lot of `XML` and the flag is not visible. But if you read carefully you will see a weird text and characters like `{`.
 
-**So you need to take the text you have and remove all the useless text to have the flag.**
+So you need to take the text you have and remove all the useless text to have the flag.
 
-**Or you can use this magic.**
+Or you can use this magic.
 
 ```shell
 cat drawing.flag.svg | grep -oP '(?<=>)[^<]+(?=<)' | tr -d ' \n' | grep -oP 'picoCTF\{[^}]+}'

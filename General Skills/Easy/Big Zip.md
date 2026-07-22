@@ -13,7 +13,7 @@ wget "https://artifacts.picoctf.net/c/505/big-zip-files.zip"
 unzip big-zip-files.zip/
 ```
 
-**Here we see a lot of files and directories. So the best command in this case is `grep`.**
+Here we see a lot of files and directories. So the best command in this case is `grep`.
 
 ```shell
 grep -ri "picoctf" big-zip-files/

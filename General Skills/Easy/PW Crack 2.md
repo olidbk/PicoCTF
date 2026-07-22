@@ -10,7 +10,7 @@ wget "https://artifacts.picoctf.net/c/13/level2.py"
 wget "https://artifacts.picoctf.net/c/13/level2.flag.txt.enc"
 ```
 
-**You have first to understand the source code of the file to find the password.**
+You have first to understand the source code of the file to find the password.
 
 ```shell
 cat level2.py
@@ -43,7 +43,7 @@ def level_2_pw_check():
 level_2_pw_check()
 ```
 
-**The password is in `0x (hex representation)` in python. So we have to recreate the it.**
+The password is in `0x (hex representation)` in python. So we have to recreate the it.
 
 ```shell
 python3

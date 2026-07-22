@@ -59,9 +59,9 @@ level_3_pw_check()
 pos_pw_list = ["8799", "d3ab", "1ea2", "acaf", "2295", "a9de", "6f3d"]
 ```
 
-**In the code they give us a list of the possible passwords.**
+In the code they give us a list of the possible passwords.
 
-**So here I add new lines of code. That makes you try all the passwords in the list then print the correct password before you enter it.**
+So here I add new lines of code. That makes you try all the passwords in the list then print the correct password before you enter it.
 
 ```shell
 nano level3.py

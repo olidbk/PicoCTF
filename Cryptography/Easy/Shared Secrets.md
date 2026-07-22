@@ -49,7 +49,7 @@ with open("file.txt", "w") as f:
     f.write(f"enc = {enc.hex()}\n")
 ```
 
-**The source code shows that the flag was encrypted using `Diffie–Hellman key exchange`.**
+The source code shows that the flag was encrypted using `Diffie–Hellman key exchange`.
 
 ```shell
 cat message.txt
@@ -67,9 +67,9 @@ b = 2531748005435027320362428017101462589109367420602712788105635351744163633032
 enc = 4d545e527e697b465955624e0e5e4f0e49620404050f5b5b580b40
 ```
 
-**Here is the vulnerability. Normally in Diffie-Hellman, `b` (the client's private exponent) should _never_ be shared. But here `b` prints in plaintext.**
+Here is the vulnerability. Normally in Diffie-Hellman, `b` (the client's private exponent) should _never_ be shared. But here `b` prints in plaintext.
 
-**Since we now have `b`, we can compute the `shared secret` exactly like the server does: `shared = A^b mod p`. Then recover the XOR key, then decrypt the flag.**
+Since we now have `b`, we can compute the `shared secret` exactly like the server does: `shared = A^b mod p`. Then recover the XOR key, then decrypt the flag.
 
 ```python
 g = 2

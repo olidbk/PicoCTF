@@ -7,7 +7,7 @@
 
 ## Solution
 
-**First let's get and see the program's source code.**
+First let's get and see the program's source code.
 
 ```shell
 wget "https://challenge-files.picoctf.net/c_verbal_sleep/2b0f68c54cfcb2dafd4ca90c4abcbe73c208f09edf65af336fc7023e1c1314ca/encrypt.py"
@@ -53,9 +53,9 @@ if __name__ == "__main__":
     exit()
 ```
 
-**The core of this program is to understand how RSA work's.**
+The core of this program is to understand how RSA work's.
 
-**Now let's try with `nc` to see what's happens.**
+Now let's try with `nc` to see what's happens.
 
 ```shell
 nc verbal-sleep.picoctf.net 64108
@@ -69,10 +69,10 @@ e: 65537
 cyphertext: 7483533393699131072109662691980909370249526541858436350516781046655660575953506554109018199741643102098462254830554989799920991065397019327571526948953641
 ```
 
-**Here they give us `N, e, cyphertext`. But to decrypt the `cyphertext` and get the `m (message)`
-we need `d`.**
+Here they give us `N, e, cyphertext`. But to decrypt the `cyphertext` and get the `m (message)`
+we need `d`.
 
-**If we look closely into N, we find that `N` is a `even numbers`, which is unusual because N should always be odd (product of two odd primes). This anomaly hinted that one of the prime factors might be 2, the only even prime number.**
+If we look closely into N, we find that `N` is a `even numbers`, which is unusual because N should always be odd (product of two odd primes). This anomaly hinted that one of the prime factors might be 2, the only even prime number.
 
 ```python
 from Crypto.Util.number import long_to_bytes

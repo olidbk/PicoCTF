@@ -12,7 +12,7 @@ wget "https://challenge-files.picoctf.net/c_wily_courier/26c4c19e611e4d55e34f14e
 cat keygenme-trial.py
 ```
 
-**If you don't see the code well you can open it with your best code editor like `VScode`.**
+If you don't see the code well you can open it with your best code editor like `VScode`.
 
 ```python
 #============================================================================#
@@ -255,9 +255,9 @@ if jump_into_full:
     exec(full_version_code)
 ```
 
-**The code is long and a little obfuscated, it contains a lot of lines of code that are not useful to us.**
+The code is long and a little obfuscated, it contains a lot of lines of code that are not useful to us.
 
-**So to know the variable `key_part_dynamic1_trial` you need to regenerate it your self.**
+So to know the variable `key_part_dynamic1_trial` you need to regenerate it your self.
 
 ```shell
 nano full_flag.py

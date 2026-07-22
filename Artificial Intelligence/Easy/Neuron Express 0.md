@@ -4,7 +4,7 @@
 
 ## Solution
 
-**An artificial neuron processes data linearly. For a 1D space, the neuron relies on a single Input (X), a single Weight (W), and a Bias (B): `Output=(X\times W)+B`**
+An artificial neuron processes data linearly. For a 1D space, the neuron relies on a single Input (X), a single Weight (W), and a Bias (B): `Output=(X\times W)+B`
 
 ```flag
 academy{n3ur0n_expr_45fba694}

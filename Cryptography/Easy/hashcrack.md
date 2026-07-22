@@ -16,11 +16,11 @@ We have identified a hash: 482c811da5d5b4bc6d497ffa98491e38
 Enter the password for identified hash:
 ```
 
-**Here they give us a hash, and we have to enter the password for this hash (the password before being hashed).**
+Here they give us a hash, and we have to enter the password for this hash (the password before being hashed).
 
-**We have to find the hash type first with a `hash analyzer` then crack it using some tools like `hashcat` using a word list.**
+We have to find the hash type first with a `hash analyzer` then crack it using some tools like `hashcat` using a word list.
 
-**But we can easily use `web sites` that use a big databases and tables to crack hashes fast. in my case i'm using `https://crackstation.net/`.**
+But we can easily use `web sites` that use a big databases and tables to crack hashes fast. in my case i'm using `https://crackstation.net/`.
 
 | Hash                             | Type | Result      |
 | -------------------------------- | ---- | ----------- |
